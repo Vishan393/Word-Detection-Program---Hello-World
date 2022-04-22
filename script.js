@@ -61,6 +61,7 @@ if (navigator.mediaDevices) {
               if (res.results[0].value > 0.2) {
                 console.log(res.results[0], res.results[1], res.results[2]);
                 console.log(int16array);
+                $("#hello-world").html("Hello World");
               }
             }
 
